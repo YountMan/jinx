@@ -1,5 +1,7 @@
 Jinx - Flickr API for Java
 
+Branch 0.5.0-SNAPSHOT is a new build to support Flickr https endpoints.
+
 Jinx is a Java interface to the Flickr API. The project goals are:
 
 1) Simple and straightforward to use
