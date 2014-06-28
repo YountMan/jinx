@@ -31,9 +31,9 @@ public class JinxConstants {
     public static final String PERMS_WRITE = "write";
     public static final String PERMS_DELETE = "delete";
     
-    public static final String REST_ENDPOINT = "http://api.flickr.com/services/rest/";
+    public static final String REST_ENDPOINT = "https://api.flickr.com/services/rest/";
 
-    public static final String AUTH_ENDPOINT = "http://flickr.com/services/auth/";
+    public static final String AUTH_ENDPOINT = "https://flickr.com/services/auth/";
 
     /** Constant for tag mode "any". */
     public static final String TAG_MODE_ANY = "any";

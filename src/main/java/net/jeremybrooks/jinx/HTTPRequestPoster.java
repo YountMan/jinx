@@ -18,12 +18,13 @@
  */
 package net.jeremybrooks.jinx;
 
+import net.jeremybrooks.jinx.logger.JinxLogger;
+
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
-import net.jeremybrooks.jinx.logger.JinxLogger;
 
 
 public class HTTPRequestPoster {
@@ -37,7 +38,7 @@ public class HTTPRequestPoster {
      */
     public static String sendGetRequest(String endpoint, String requestParameters) {
 	String result = null;
-	if (endpoint.startsWith("http://")) {
+	if (endpoint.startsWith("https://")) {
 	    // Send a GET request to the servlet
 	    try {
 		// Construct data

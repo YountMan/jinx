@@ -50,7 +50,7 @@ public class PhotoUtils {
             }
         }
 
-        StringBuilder sb = new StringBuilder("http://farm");
+        StringBuilder sb = new StringBuilder("https://farm");
         sb.append(photo.getFarm());
         sb.append(".static.flickr.com/");
         sb.append(photo.getServer()).append("/");
